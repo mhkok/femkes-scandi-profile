@@ -85,7 +85,7 @@ export default function About() {
                     <Badge 
                       key={area}
                       variant="secondary"
-                      className="bg-warm-wood/20 text-oak hover:bg-warm-wood/30 px-4 py-2 text-sm font-medium"
+                      className="bg-sage-green/20 text-forest-green hover:bg-sage-green/30 px-4 py-2 text-sm font-medium"
                     >
                       {area}
                     </Badge>
@@ -103,9 +103,9 @@ export default function About() {
                 {qualities.map((quality) => (
                   <Card key={quality.title} className="p-6 bg-card border-border hover:shadow-md transition-shadow">
                     <div className="flex items-start gap-4">
-                      <div className="bg-warm-wood/20 p-3 rounded-lg">
-                        <quality.icon className="h-6 w-6 text-oak" />
-                      </div>
+                    <div className="bg-sage-green/20 p-3 rounded-lg">
+                      <quality.icon className="h-6 w-6 text-forest-green" />
+                    </div>
                       <div>
                         <h4 className="text-lg font-medium text-primary mb-2">
                           {quality.title}

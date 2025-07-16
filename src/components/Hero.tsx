@@ -21,7 +21,7 @@ export default function Hero() {
           {/* Text Content */}
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
-              <p className="text-warm-wood font-medium tracking-wider uppercase text-sm">
+              <p className="text-sage-green font-medium tracking-wider uppercase text-sm">
                 Healthcare Professional
               </p>
               <h1 className="text-5xl lg:text-6xl font-serif font-medium text-primary leading-tight">
@@ -70,7 +70,7 @@ export default function Hero() {
           {/* Portrait */}
           <div className="flex justify-center lg:justify-end animate-slide-up">
             <div className="relative">
-              <div className="absolute -inset-4 bg-warm-wood/20 rounded-2xl blur-xl" />
+              <div className="absolute -inset-4 bg-sage-green/20 rounded-2xl blur-xl" />
               <img
                 src={femkePortrait}
                 alt="Femke - Healthcare Professional"

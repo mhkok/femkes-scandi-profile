@@ -140,7 +140,7 @@ export default function Experience() {
                       </div>
                       <Badge 
                         variant="secondary"
-                        className="bg-warm-wood/20 text-oak hover:bg-warm-wood/30"
+                        className="bg-sage-green/20 text-forest-green hover:bg-sage-green/30"
                       >
                         {exp.type}
                       </Badge>
@@ -153,7 +153,7 @@ export default function Experience() {
                         <ul className="space-y-2 text-foreground/80 font-light">
                           {exp.highlights.map((highlight, idx) => (
                             <li key={idx} className="flex items-start gap-3">
-                              <span className="w-2 h-2 bg-warm-wood rounded-full mt-2 flex-shrink-0" />
+                              <span className="w-2 h-2 bg-sage-green rounded-full mt-2 flex-shrink-0" />
                               <span className="leading-relaxed">{highlight}</span>
                             </li>
                           ))}
@@ -167,7 +167,7 @@ export default function Experience() {
                             <Badge 
                               key={skill}
                               variant="outline"
-                              className="border-warm-wood/30 text-oak hover:bg-warm-wood/10"
+                              className="border-sage-green/30 text-forest-green hover:bg-sage-green/10"
                             >
                               {skill}
                             </Badge>
@@ -202,7 +202,7 @@ export default function Experience() {
                         {edu.field}
                       </p>
                       {edu.specialization && (
-                        <p className="text-warm-wood font-medium mb-2">
+                        <p className="text-sage-green font-medium mb-2">
                           Specialization: {edu.specialization}
                         </p>
                       )}
@@ -215,7 +215,7 @@ export default function Experience() {
                     <ul className="space-y-2 text-foreground/80 font-light">
                       {edu.highlights.map((highlight, idx) => (
                         <li key={idx} className="flex items-start gap-3">
-                          <span className="w-2 h-2 bg-warm-wood rounded-full mt-2 flex-shrink-0" />
+                          <span className="w-2 h-2 bg-sage-green rounded-full mt-2 flex-shrink-0" />
                           <span className="leading-relaxed">{highlight}</span>
                         </li>
                       ))}

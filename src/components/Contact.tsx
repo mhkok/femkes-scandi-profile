@@ -39,8 +39,8 @@ export default function Contact() {
               <div className="space-y-6">
                 <Card className="p-6 bg-card border-border hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-4">
-                    <div className="bg-warm-wood/20 p-3 rounded-lg">
-                      <Mail className="h-6 w-6 text-oak" />
+                    <div className="bg-sage-green/20 p-3 rounded-lg">
+                      <Mail className="h-6 w-6 text-forest-green" />
                     </div>
                     <div>
                       <h4 className="text-lg font-medium text-primary mb-1">Email</h4>
@@ -51,8 +51,8 @@ export default function Contact() {
 
                 <Card className="p-6 bg-card border-border hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-4">
-                    <div className="bg-warm-wood/20 p-3 rounded-lg">
-                      <Linkedin className="h-6 w-6 text-oak" />
+                    <div className="bg-sage-green/20 p-3 rounded-lg">
+                      <Linkedin className="h-6 w-6 text-forest-green" />
                     </div>
                     <div>
                       <h4 className="text-lg font-medium text-primary mb-1">LinkedIn</h4>
@@ -63,8 +63,8 @@ export default function Contact() {
 
                 <Card className="p-6 bg-card border-border hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-4">
-                    <div className="bg-warm-wood/20 p-3 rounded-lg">
-                      <MapPin className="h-6 w-6 text-oak" />
+                    <div className="bg-sage-green/20 p-3 rounded-lg">
+                      <MapPin className="h-6 w-6 text-forest-green" />
                     </div>
                     <div>
                       <h4 className="text-lg font-medium text-primary mb-1">Location</h4>
@@ -75,8 +75,8 @@ export default function Contact() {
 
                 <Card className="p-6 bg-card border-border hover:shadow-md transition-shadow">
                   <div className="flex items-center gap-4">
-                    <div className="bg-warm-wood/20 p-3 rounded-lg">
-                      <Phone className="h-6 w-6 text-oak" />
+                    <div className="bg-sage-green/20 p-3 rounded-lg">
+                      <Phone className="h-6 w-6 text-forest-green" />
                     </div>
                     <div>
                       <h4 className="text-lg font-medium text-primary mb-1">Phone</h4>
@@ -103,7 +103,7 @@ export default function Contact() {
                       <Input 
                         id="name"
                         placeholder="Your name"
-                        className="border-border focus:ring-warm-wood"
+                        className="border-border focus:ring-sage-green"
                       />
                     </div>
                     <div className="space-y-2">
@@ -114,7 +114,7 @@ export default function Contact() {
                         id="email"
                         type="email"
                         placeholder="your.email@example.com"
-                        className="border-border focus:ring-warm-wood"
+                        className="border-border focus:ring-sage-green"
                       />
                     </div>
                   </div>
@@ -126,7 +126,7 @@ export default function Contact() {
                     <Input 
                       id="company"
                       placeholder="Your company"
-                      className="border-border focus:ring-warm-wood"
+                      className="border-border focus:ring-sage-green"
                     />
                   </div>
                   
@@ -137,7 +137,7 @@ export default function Contact() {
                     <Input 
                       id="subject"
                       placeholder="What would you like to discuss?"
-                      className="border-border focus:ring-warm-wood"
+                      className="border-border focus:ring-sage-green"
                     />
                   </div>
                   
@@ -149,7 +149,7 @@ export default function Contact() {
                       id="message"
                       placeholder="Tell me about the opportunity or how I can help..."
                       rows={6}
-                      className="border-border focus:ring-warm-wood resize-none"
+                      className="border-border focus:ring-sage-green resize-none"
                     />
                   </div>
                   
@@ -166,7 +166,7 @@ export default function Contact() {
 
           {/* Call to Action */}
           <div className="mt-16 text-center animate-fade-in">
-            <div className="bg-warm-wood/10 rounded-2xl p-8 max-w-4xl mx-auto">
+            <div className="bg-sage-green/10 rounded-2xl p-8 max-w-4xl mx-auto">
               <h3 className="text-2xl font-serif font-medium text-primary mb-4">
                 Ready to Make an Impact?
               </h3>

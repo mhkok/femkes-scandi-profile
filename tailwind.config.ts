@@ -52,12 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Natural wood-inspired colors
-				'warm-wood': 'hsl(var(--warm-wood))',
-				'light-wood': 'hsl(var(--light-wood))',
-				'birch': 'hsl(var(--birch))',
-				'beech': 'hsl(var(--beech))',
-				'oak': 'hsl(var(--oak))',
+				// Calm green nature-inspired colors
+				'sage-green': 'hsl(var(--sage-green))',
+				'pale-eucalyptus': 'hsl(var(--pale-eucalyptus))',
+				'soft-mint': 'hsl(var(--soft-mint))',
+				'muted-sage': 'hsl(var(--muted-sage))',
+				'forest-green': 'hsl(var(--forest-green))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
