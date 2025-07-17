@@ -52,6 +52,14 @@ export default function Hero() {
                 variant="outline" 
                 size="lg"
                 className="border-border hover:bg-secondary px-8 py-3 rounded-lg font-medium"
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = '/femke-cv.pdf';
+                  link.download = 'Femke-CV.pdf';
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }}
               >
                 <Download className="mr-2 h-5 w-5" />
                 Download CV
