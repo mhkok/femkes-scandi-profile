@@ -25,18 +25,19 @@ export default function Hero() {
                 Healthcare Professional
               </p>
               <h1 className="text-5xl lg:text-6xl font-serif font-medium text-primary leading-tight">
-                Femke
+                Femke Schepers
               </h1>
               <p className="text-xl text-muted-foreground font-light leading-relaxed">
-                Passionate healthcare professional with an MSc in Pharmaceutical Sciences
+                MSc Bio-Pharmaceutical Sciences | Clinical Operations & Medical Affairs Expert
               </p>
             </div>
 
             <div className="prose prose-lg text-foreground/80 font-light leading-relaxed">
               <p>
-                With over a decade of experience in the pharmaceutical industry, I specialize in 
-                Clinical Operations and Medical Affairs. Most recently serving as Study Country Lead 
-                at Sanofi, I bring scientific rigor and a collaborative spirit to every project.
+                With over a decade of experience in the pharmaceutical industry, I currently serve as 
+                Clinical Operations Study Country Lead at Sanofi, managing clinical studies across 
+                Nordic and Baltic regions. My expertise spans clinical operations, medical affairs, 
+                and regulatory submissions across diverse therapeutic areas.
               </p>
             </div>
 

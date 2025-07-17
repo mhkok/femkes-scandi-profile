@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Linkedin, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Globe, Send } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -44,31 +44,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="text-lg font-medium text-primary mb-1">Email</h4>
-                      <p className="text-foreground/70">femke@example.com</p>
-                    </div>
-                  </div>
-                </Card>
-
-                <Card className="p-6 bg-card border-border hover:shadow-md transition-shadow">
-                  <div className="flex items-center gap-4">
-                    <div className="bg-sage-green/20 p-3 rounded-lg">
-                      <Linkedin className="h-6 w-6 text-forest-green" />
-                    </div>
-                    <div>
-                      <h4 className="text-lg font-medium text-primary mb-1">LinkedIn</h4>
-                      <p className="text-foreground/70">linkedin.com/in/femke</p>
-                    </div>
-                  </div>
-                </Card>
-
-                <Card className="p-6 bg-card border-border hover:shadow-md transition-shadow">
-                  <div className="flex items-center gap-4">
-                    <div className="bg-sage-green/20 p-3 rounded-lg">
-                      <MapPin className="h-6 w-6 text-forest-green" />
-                    </div>
-                    <div>
-                      <h4 className="text-lg font-medium text-primary mb-1">Location</h4>
-                      <p className="text-foreground/70">Netherlands</p>
+                      <p className="text-foreground/70">femkeschepers@gmail.com</p>
                     </div>
                   </div>
                 </Card>
@@ -80,7 +56,31 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="text-lg font-medium text-primary mb-1">Phone</h4>
-                      <p className="text-foreground/70">Available upon request</p>
+                      <p className="text-foreground/70">+46 (0)761126968</p>
+                    </div>
+                  </div>
+                </Card>
+
+                <Card className="p-6 bg-card border-border hover:shadow-md transition-shadow">
+                  <div className="flex items-center gap-4">
+                    <div className="bg-sage-green/20 p-3 rounded-lg">
+                      <MapPin className="h-6 w-6 text-forest-green" />
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-medium text-primary mb-1">Location</h4>
+                      <p className="text-foreground/70">Stockholm, Sweden</p>
+                    </div>
+                  </div>
+                </Card>
+
+                <Card className="p-6 bg-card border-border hover:shadow-md transition-shadow">
+                  <div className="flex items-center gap-4">
+                    <div className="bg-sage-green/20 p-3 rounded-lg">
+                      <Globe className="h-6 w-6 text-forest-green" />
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-medium text-primary mb-1">Nationality</h4>
+                      <p className="text-foreground/70">Dutch</p>
                     </div>
                   </div>
                 </Card>
@@ -187,8 +187,8 @@ export default function Contact() {
                   size="lg"
                   className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8"
                 >
-                  <Linkedin className="mr-2 h-5 w-5" />
-                  Connect on LinkedIn
+                  <Mail className="mr-2 h-5 w-5" />
+                  Email Me
                 </Button>
               </div>
             </div>
