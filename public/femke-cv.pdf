@@ -23,6 +23,7 @@ endobj
 /Resources <<
 /Font <<
 /F1 5 0 R
+/F2 6 0 R
 >>
 >>
 >>
@@ -30,52 +31,94 @@ endobj
 
 4 0 obj
 <<
-/Length 800
+/Length 2800
 >>
 stream
 BT
-/F1 18 Tf
+/F1 24 Tf
 50 720 Td
-(Femke) Tj
+(Femke Schepers) Tj
 0 -30 Td
-/F1 12 Tf
-(Healthcare Professional) Tj
+/F2 12 Tf
+(Stockholm | +46 (0)761126968 | femkeschepers@gmail.com | Dutch Nationality) Tj
 0 -40 Td
-/F1 14 Tf
-(MSc in Pharmaceutical Sciences) Tj
-0 -30 Td
+/F1 16 Tf
+(WORK EXPERIENCE) Tj
+0 -25 Td
 /F1 12 Tf
-(Specializing in Pharmacology and Science-Based Business) Tj
-0 -50 Td
-/F1 14 Tf
-(EXPERIENCE) Tj
-0 -30 Td
+(Oct 2022 - Present: Clinical Operations Study Country Lead at Sanofi) Tj
+0 -15 Td
+/F2 10 Tf
+(Stockholm, Sweden) Tj
+0 -12 Td
+(Responsible for planning, management, and execution of clinical studies) Tj
+0 -12 Td
+(across Nordic and Baltic regions, from site selection to study closure.) Tj
+0 -20 Td
 /F1 12 Tf
-(Study Country Lead - Sanofi) Tj
+(Oct 2021 - Sep 2022: Medical Advisor at Teva Pharmaceuticals) Tj
+0 -15 Td
+/F2 10 Tf
+(Stockholm, Sweden) Tj
 0 -20 Td
-(Medical Advisor - Teva Pharmaceuticals) Tj
-0 -40 Td
-/F1 14 Tf
-(EXPERTISE) Tj
-0 -30 Td
 /F1 12 Tf
-(- Clinical Operations and Medical Affairs) Tj
+(Dec 2017 - Sep 2021: Medical Advisor at Teva Pharmaceuticals) Tj
+0 -15 Td
+/F2 10 Tf
+(Haarlem, the Netherlands) Tj
+0 -12 Td
+(Registry study conduct, advisory boards, investigator-sponsored studies,) Tj
+0 -12 Td
+(medical review. Focus: drug repurposing, gastroenterology, cardiology.) Tj
 0 -20 Td
-(- Clinical study leadership) Tj
-0 -20 Td
-(- Medical strategy and scientific communication) Tj
-0 -20 Td
-(- Stakeholder engagement) Tj
-0 -20 Td
-(- Gastroenterology, neurology, vaccines, cardiology) Tj
-0 -40 Td
-/F1 14 Tf
-(CONTACT) Tj
-0 -30 Td
 /F1 12 Tf
-(Email: femke@example.com) Tj
+(Feb 2016 - Nov 2017: Medical Affairs Officer at Teva Pharmaceuticals) Tj
+0 -15 Td
+/F2 10 Tf
+(Haarlem, the Netherlands) Tj
 0 -20 Td
-(LinkedIn: /in/femke) Tj
+/F1 12 Tf
+(Mar 2014 - Jan 2016: Clinical Research Associate at GSK) Tj
+0 -15 Td
+/F2 10 Tf
+(Zeist, the Netherlands - Focus: pulmonary diseases) Tj
+0 -20 Td
+/F1 12 Tf
+(Sep 2013 - Feb 2014: Intern at Merck/MSD, Clinical Operations) Tj
+0 -15 Td
+/F2 10 Tf
+(Haarlem, the Netherlands) Tj
+0 -25 Td
+/F1 16 Tf
+(EDUCATION) Tj
+0 -25 Td
+/F1 12 Tf
+(2011-2014: Master Bio-Pharmaceutical Sciences) Tj
+0 -15 Td
+/F2 10 Tf
+(Science Based Business & Pharmacology, University Leiden) Tj
+0 -20 Td
+/F1 12 Tf
+(2007-2011: Bachelor Bio-Pharmaceutical Sciences) Tj
+0 -15 Td
+/F2 10 Tf
+(University Leiden, the Netherlands) Tj
+0 -25 Td
+/F1 16 Tf
+(SKILLS & LANGUAGES) Tj
+0 -25 Td
+/F2 10 Tf
+(Languages: Dutch (native), English (fluent), Swedish/French/German (moderate)) Tj
+0 -15 Td
+(Technical: R Statistics, Population PK modeling with NONMEM, Electrophysiology) Tj
+0 -25 Td
+/F1 16 Tf
+(INTERESTS) Tj
+0 -25 Td
+/F2 10 Tf
+(Race & gravel biking, Field hockey, Sailing (World Championship level),) Tj
+0 -12 Td
+(Surfing, Skiing, Tennis, Rowing, Flute traverse) Tj
 ET
 endstream
 endobj
@@ -84,23 +127,32 @@ endobj
 <<
 /Type /Font
 /Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
 /BaseFont /Helvetica
 >>
 endobj
 
 xref
-0 6
+0 7
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
 0000000115 00000 n 
-0000000274 00000 n 
-0000001126 00000 n 
+0000000289 00000 n 
+0000003142 00000 n 
+0000003220 00000 n 
 trailer
 <<
-/Size 6
+/Size 7
 /Root 1 0 R
 >>
 startxref
-1203
+3295
 %%EOF
