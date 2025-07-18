@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Globe, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Globe, Linkedin } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -21,7 +21,7 @@ export default function Contact() {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="max-w-2xl mx-auto">
             
             {/* Contact Information */}
             <div className="space-y-8 animate-slide-up">
@@ -87,81 +87,6 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Contact Form */}
-            <div className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
-              <Card className="p-8 bg-card border-border shadow-lg">
-                <h3 className="text-2xl font-serif font-medium text-primary mb-8">
-                  Send a Message
-                </h3>
-                
-                <form className="space-y-6">
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div className="space-y-2">
-                      <label htmlFor="name" className="text-sm font-medium text-primary">
-                        Full Name
-                      </label>
-                      <Input 
-                        id="name"
-                        placeholder="Your name"
-                        className="border-border focus:ring-sage-green"
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <label htmlFor="email" className="text-sm font-medium text-primary">
-                        Email
-                      </label>
-                      <Input 
-                        id="email"
-                        type="email"
-                        placeholder="your.email@example.com"
-                        className="border-border focus:ring-sage-green"
-                      />
-                    </div>
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <label htmlFor="company" className="text-sm font-medium text-primary">
-                      Company / Organization
-                    </label>
-                    <Input 
-                      id="company"
-                      placeholder="Your company"
-                      className="border-border focus:ring-sage-green"
-                    />
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <label htmlFor="subject" className="text-sm font-medium text-primary">
-                      Subject
-                    </label>
-                    <Input 
-                      id="subject"
-                      placeholder="What would you like to discuss?"
-                      className="border-border focus:ring-sage-green"
-                    />
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <label htmlFor="message" className="text-sm font-medium text-primary">
-                      Message
-                    </label>
-                    <Textarea 
-                      id="message"
-                      placeholder="Tell me about the opportunity or how I can help..."
-                      rows={6}
-                      className="border-border focus:ring-sage-green resize-none"
-                    />
-                  </div>
-                  
-                  <Button 
-                    type="submit"
-                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground py-3 text-lg"
-                  >
-                    Send Message
-                  </Button>
-                </form>
-              </Card>
-            </div>
           </div>
 
           {/* Call to Action */}
@@ -178,17 +103,10 @@ export default function Contact() {
                 <Button 
                   size="lg"
                   className="bg-primary hover:bg-primary/90 text-primary-foreground px-8"
+                  onClick={() => window.open('https://www.linkedin.com/in/femke--schepers/', '_blank')}
                 >
-                  <Mail className="mr-2 h-5 w-5" />
-                  Start Conversation
-                </Button>
-                <Button 
-                  variant="outline"
-                  size="lg"
-                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8"
-                >
-                  <Mail className="mr-2 h-5 w-5" />
-                  Email Me
+                  <Linkedin className="mr-2 h-5 w-5" />
+                  Connect on LinkedIn
                 </Button>
               </div>
             </div>

@@ -43,13 +43,6 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4">
               <Button 
-                size="lg" 
-                className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-lg font-medium"
-              >
-                <Mail className="mr-2 h-5 w-5" />
-                Get in Touch
-              </Button>
-              <Button 
                 variant="outline" 
                 size="lg"
                 className="border-border hover:bg-secondary px-8 py-3 rounded-lg font-medium"
@@ -69,6 +62,7 @@ export default function Hero() {
                 variant="ghost" 
                 size="lg"
                 className="hover:bg-secondary px-8 py-3 rounded-lg font-medium"
+                onClick={() => window.open('https://www.linkedin.com/in/femke--schepers/', '_blank')}
               >
                 <Linkedin className="mr-2 h-5 w-5" />
                 LinkedIn
