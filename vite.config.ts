@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
   build: {
     outDir: "dist",
   },
-  base: "/femkes-scandi-profile/",
+  base: "/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
