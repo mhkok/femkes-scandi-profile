@@ -32,11 +32,6 @@ export default function Experience() {
       highlights: [
         "Same Medical Advisor position as previous role but located in Sweden",
       ],
-      skills: [
-        "Medical Affairs",
-        "Stakeholder Management",
-        "Scientific Communication",
-      ],
     },
     {
       title: "Medical Advisor",
@@ -52,6 +47,9 @@ export default function Experience() {
         "Built collaborative relationships with HCPs and KOLs",
       ],
       skills: [
+        "Medical Affairs",
+        "Stakeholder Management",
+        "Scientific Communication",
         "Drug Rediscovery",
         "Gastroenterology",
         "Cardiology",
@@ -313,7 +311,7 @@ export default function Experience() {
                   variant="outline"
                   className="border-sage-green/30 text-muted-foreground"
                 >
-                  Moderate
+                  Fluent by end of 2025
                 </Badge>
               </div>
               <div className="flex justify-between items-center">
