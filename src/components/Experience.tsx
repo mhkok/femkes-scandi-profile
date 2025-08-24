@@ -112,7 +112,7 @@ export default function Experience() {
         "Population pharmacokinetic modeling expertise - Investigated linear and non-linear elimination of monoclonal antibodies",
         "Literature review on ommunication between Brain and Periphery: the Blood-Brain Barrier as a Regulatory Interface",
         "Investigated the performance of clinical research in the Netherlands compared to other countries",
-        "Development of a biosensor and biopesticide using electrophysiology techniques. Channel activity investigated in artificial membrane systems.
+        "Development of a biosensor and biopesticide using electrophysiology techniques. Channel activity investigated in artificial membrane systems."
       ],
     },
     {
