@@ -32,6 +32,9 @@ export default function Experience() {
       highlights: [
         "Same Medical Advisor position as previous role but located in Sweden",
       ],
+      skills: [
+        "Medical Affairs",
+      ],
     },
     {
       title: "Medical Advisor",
@@ -397,7 +400,7 @@ export default function Experience() {
               variant="outline"
               className="border-sage-green/30 text-muted-foreground"
             >
-              FF voile Certified Instructor
+              FF voile Certified Sailing Instructor
             </Badge>
             <Badge
               variant="outline"
