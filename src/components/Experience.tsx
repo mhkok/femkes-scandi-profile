@@ -52,7 +52,7 @@ export default function Experience() {
         "Built collaborative relationships with HCPs and KOLs",
       ],
       skills: [
-        "Drug Repurposing",
+        "Drug Rediscovery",
         "Gastroenterology",
         "Cardiology",
         "Regulatory Submissions",
@@ -97,45 +97,23 @@ export default function Experience() {
         "Site Management",
       ],
     },
-    {
-      title: "Clinical Operations Intern",
-      company: "Merck/MSD",
-      location: "Haarlem, Netherlands",
-      period: "Sep 2013 - Feb 2014",
-      type: "Internship",
-      highlights: [
-        "Investigated performance of clinical research in Netherlands vs other countries",
-      ],
-      skills: [
-        "Clinical Research Analysis",
-        "Process Improvement",
-        "Data Analysis",
-      ],
-    },
   ];
 
   const education = [
     {
       degree: "Master of Science",
       field: "Bio-Pharmaceutical Sciences",
-      specialization: "Science Based Business",
+      specializations: "Pharmacology and Science Based Business",
       institution: "University of Leiden",
       location: "Netherlands",
       period: "2011 - 2014",
       highlights: [
         "Dual specialization in Pharmacology and Science-Based Business",
-        "Population pharmacokinetic modeling expertise",
-        "Advanced research in monoclonal antibodies",
+        "Population pharmacokinetic modeling expertise - Investigated linear and non-linear elimination of monoclonal antibodies",
+        "Literature review on ommunication between Brain and Periphery: the Blood-Brain Barrier as a Regulatory Interface",
+        "Investigated the performance of clinical research in the Netherlands compared to other countries",
+        "Development of a biosensor and biopesticide using electrophysiology techniques. Channel activity investigated in artificial membrane systems.
       ],
-    },
-    {
-      degree: "Master of Science",
-      field: "Bio-Pharmaceutical Sciences",
-      specialization: "Pharmacology",
-      institution: "University of Leiden",
-      location: "Netherlands",
-      period: "2011 - 2013",
-      highlights: ["Specialized focus on pharmacology"],
     },
     {
       degree: "Bachelor of Science",
