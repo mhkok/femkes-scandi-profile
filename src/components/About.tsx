@@ -31,7 +31,7 @@ export default function About() {
     "Neurology", 
     "Vaccines",
     "Cardiology",
-    "Drug Repurposing"
+    "Drug Rediscovery"
   ];
 
   return (
