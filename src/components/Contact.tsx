@@ -30,9 +30,8 @@ export default function Contact() {
                   Get in Touch
                 </h3>
                 <p className="text-foreground/80 font-light leading-relaxed mb-8">
-                  I'd love to hear from you. Whether you're looking for a dedicated Medical Affairs 
-                  professional or want to discuss opportunities in Clinical Operations, I'm always 
-                  open to meaningful conversations.
+                  I'd love to hear from you. If you're looking for a dedicated Medical Affairs 
+                  professional, I'm always open to meaningful conversations.
                 </p>
               </div>
 
