@@ -51,7 +51,7 @@ export default function Hero() {
     pdf.setFontSize(11);
     pdf.setTextColor(60, 60, 60);
     const heroText =
-      "With over a decade of experience in the pharmaceutical industry, I currently serve as Clinical Operations Study Country Lead at Sanofi, managing clinical studies across Nordic and Baltic regions. My expertise spans clinical operations, medical affairs, and regulatory submissions across diverse therapeutic areas.";
+      "With over a decade of experience in the pharmaceutical industry. My expertise spans clinical operations, medical affairs, and regulatory submissions across diverse therapeutic areas.";
     pdf.text(heroText, 20, yPos, { maxWidth: 170 });
     yPos += 25;
 
