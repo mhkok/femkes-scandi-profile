@@ -32,7 +32,7 @@ export default function Hero() {
     pdf.setFontSize(14);
     pdf.setTextColor(...mutedColor);
     pdf.text(
-      "MSc Bio-Pharmaceutical Sciences | Clinical Operations & Medical Affairs Expert",
+      "MSc Bio-Pharmaceutical Sciences | Medical Affairs & Clinical Operations Expert",
       20,
       yPos,
     );
