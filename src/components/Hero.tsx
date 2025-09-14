@@ -283,8 +283,8 @@ export default function Hero() {
                 Femke Schepers
               </h1>
               <p className="text-xl text-muted-foreground font-light leading-relaxed">
-                MSc Bio-Pharmaceutical Sciences | Clinical Operations & Medical
-                Affairs Expert
+                MSc Bio-Pharmaceutical Sciences | Medical Affairs & Clinical
+                Operations Expert
               </p>
             </div>
 
