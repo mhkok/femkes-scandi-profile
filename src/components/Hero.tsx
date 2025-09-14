@@ -66,7 +66,7 @@ export default function Hero() {
     pdf.setFontSize(11);
     pdf.setTextColor(60, 60, 60);
     const aboutText =
-      "What sets me apart is my positive mindset, collaborative spirit, and energetic approach to work. Colleagues often describe me as friendly, social, and highly motivated. I am currently exploring new opportunities in Medical Affairs, where I can continue to grow, contribute, and make a meaningful impact on patient care through science and collaboration.";
+      "What sets me apart is my positive mindset, collaborative spirit, and energetic approach to work. Colleagues often describe me as friendly, social, and highly motivated. I am currently exploring new opportunities in Medical Affairs and beyond - looking for roles where I can continue to grow, contribute, and make a meaningful impact on patient care through science and collaboration.";
     pdf.text(aboutText, 20, yPos, { maxWidth: 170 });
     yPos += 25;
 
