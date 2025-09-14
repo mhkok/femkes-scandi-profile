@@ -5,28 +5,28 @@ import { Heart, Users, Lightbulb, Target } from "lucide-react";
 export default function About() {
   const qualities = [
     {
-      icon: Heart,
-      title: "Passionate",
-      description:
-        "Dedicated to making a meaningful impact on patient care through science",
-    },
-    {
       icon: Users,
       title: "Collaborative",
       description:
         "Thrive in cross-functional environments building trust-based relationships",
     },
     {
-      icon: Lightbulb,
-      title: "Innovative",
-      description:
-        "Connect science with strategy in dynamic pharmaceutical landscapes",
-    },
-    {
       icon: Target,
       title: "Results-Driven",
       description:
         "Bring both scientific rigor and human touch to every project",
+    },
+    {
+      icon: Heart,
+      title: "Passionate",
+      description:
+        "Dedicated to making a meaningful impact on patient care through science",
+    },
+    {
+      icon: Lightbulb,
+      title: "Innovative",
+      description:
+        "Connect science with strategy in dynamic pharmaceutical landscapes",
     },
   ];
 
