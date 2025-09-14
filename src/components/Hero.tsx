@@ -78,10 +78,10 @@ export default function Hero() {
     yPos += 8;
 
     const qualities = [
-      "• Passionate: Dedicated to making meaningful impact on patient care through science",
       "• Collaborative: Thrive in cross-functional environments building trust-based relationships",
-      "• Innovative: Connect science with strategy in dynamic pharmaceutical landscapes",
       "• Results-Driven: Bring both scientific rigor and human touch to every project",
+      "• Passionate: Dedicated to making meaningful impact on patient care through science",
+      "• Innovative: Connect science with strategy in dynamic pharmaceutical landscapes",
     ];
 
     pdf.setFont("helvetica", "normal");
