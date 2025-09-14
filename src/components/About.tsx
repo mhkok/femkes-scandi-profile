@@ -147,9 +147,10 @@ export default function About() {
           {/* Bottom CTA */}
           <div className="mt-16 text-center animate-fade-in">
             <p className="text-lg text-muted-foreground font-light mb-8 max-w-2xl mx-auto">
-              I'm currently exploring new opportunities in Medical Affairs,
-              where I can continue to grow, contribute, and make a meaningful
-              impact on patient care through science and collaboration.
+              I'm currently exploring new opportunities in Medical Affairs and
+              beyond, where I can continue to grow, contribute, and make a
+              meaningful impact on patient care through science and
+              collaboration.
             </p>
           </div>
         </div>
